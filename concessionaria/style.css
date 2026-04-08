@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+@font-face {
+    font-family: 'legal';
+    src: url('../fontes/bonello\ \(1\)/')format('opentype');
+    src: url('..fontes/midnight_gelactic/')format('opentype');
+    font-weight: normal;
+}
+
+
+:root{
+   --Cor1: #084F8C;
+   --cor2: #1081C7;
+   --cor3: #1399CF;
+   --cor4: #18ABCC;
+   --cor5: #27D5E8;
+   --fonte-padrao: Areial,verdana,sans-serif;
+   --fonte-n2:'bonelo',cursive;
+   --fonte-n3:'midnight_gelactic',cursive;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--Cor1);
+    font-family: var(--fonte-padrao);
+}
+header {
+
+    background-image: linear-gradient(to bottom,var(--cor5),var(--cor2));
+   min-height: 130px;
+   text-align: center;
+   padding-top: 40px;
+
+    
+}
+header > h1{
+    color: white;
+    font-family: var(--fonte-n2);
+    margin-bottom: 20px;
+    font-size: 3em;
+
+}
+header > p {
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+nav {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 0px black;
+
+}
+nav > a {
+
+    padding: 10px;
+    text-align: center;
+     font-weight: bold;
+     border-radius: 5px;
+     transition-duration: 0.7s;
+}
+nav > a:hover{
+    background-color: var(--Cor1);
+    color: var(--cor5);
+}
+main h1{
+    background-color: var(--cor2);
+    color: var(--cor5);
+    font-family:var(--fonte-n3) ;
+    padding: 20px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+main h2{
+    font-family: var(--fonte-n3);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right,var(--cor5),transparent);
+
+}
+main h3{
+    text-decoration: underline;
+    color: blueviolet;
+}
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: white;
+margin: auto;
+    box-shadow: 0px 0px 10px black;
+}
+main p{
+    margin: 15px 0px 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+}
+main img.pequena{
+    max-width: 350px;
+}
+
+main strong {
+    color: var(--cor3);
+    font-weight: bold;
+    padding: 2px ;
+}
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blueviolet;
+}
+main a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+footer {
+    background-color: var(--cor2);
+    color: white;
+}
