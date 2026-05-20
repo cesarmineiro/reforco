@@ -125,7 +125,12 @@ main a:hover{
     color: red;
 }
 
-footer {
+footer >p{
     background-color: var(--cor2);
     color: white;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+  
 }
