@@ -119,7 +119,7 @@ main strong{
 aside{
  
 
-    background-color: var(--cor1);
+    background-color: rgb(228, 228, 236);
     padding: 5px;
 
     border-radius: 20px;

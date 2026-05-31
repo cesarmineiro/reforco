@@ -112,13 +112,13 @@ main p{
 main h1{
 color: var(--cor4);
 }
-aside{
-    background-color: rgba(245, 247, 163, 0.712);
+  aside {
+  border-radius: 10px;
     padding-top: 10px;
-    
+    box-shadow: 3px 3px 8px rgb(29, 28, 28);
 }
 aside > h2{
-    color:#5C9DF2;
+    color:#b2ccee;
     background-image: none
  
    
